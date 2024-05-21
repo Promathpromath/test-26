@@ -6,6 +6,8 @@ class Hero:
     
     def fight(self, enemy):
         enemy.health -= self.power
+print(1)
+
 
 knight = Hero('Вася', 100, 10)
 print(knight.name)
